@@ -13,7 +13,6 @@ pipeline {
         sh 'ps'
         sh 'mvn --version'
         sh 'ls -la /usr/lib/jvm/java-8-openjdk-amd64/'
-        sh 'docker inspect maven'
       }
     }
   }
