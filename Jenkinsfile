@@ -12,8 +12,7 @@ pipeline {
         sh 'id'
         sh 'ps'
         sh 'mvn --version'
-        sh 'echo "hello world" > hello.txt'
-        sh 'ls -al'
+        sh 'ls -la /usr/lib/jvm/java-8-openjdk-amd64/'
         sh 'docker inspect maven'
       }
     }
