@@ -3,6 +3,9 @@ pipeline {
   stages {
     stage('build') {
       steps {
+        sh 'pwd'
+        sh 'id'
+        sh 'ps'
         sh 'mvn --version'
       }
     }
