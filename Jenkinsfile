@@ -7,6 +7,8 @@ pipeline {
         sh 'id'
         sh 'ps'
         sh 'mvn --version'
+        sh 'echo "hello world" > hello.txt'
+        sh 'ls -al'
       }
     }
   }
