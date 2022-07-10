@@ -12,6 +12,7 @@ pipeline {
         sh 'id'
         sh 'ps'
         sh 'mvn --version'
+        sh 'date'
         sh 'ls -la /usr/lib/jvm/java-8-openjdk-amd64/'
       }
     }
